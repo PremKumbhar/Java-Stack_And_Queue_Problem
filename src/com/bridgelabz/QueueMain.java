@@ -8,7 +8,15 @@ public class QueueMain {
         queueObject.enQueue(56);
         queueObject.enQueue(30);
         queueObject.enQueue(70);
-        System.out.println("***** Display Queue Elements *****");
+        System.out.println("Display Queue Elements");
+        queueObject.displayQueue();
+        System.out.println(" Display Queue Elements ");
+        queueObject.displayQueue();
+        System.out.println(" Display deQueue Elements ");
+        queueObject.deQueue(56);
+        queueObject.displayQueue();
+        System.out.println(" Display deQueue Elements ");
+        queueObject.deQueue(30);
         queueObject.displayQueue();
     }
 }
